@@ -1,6 +1,6 @@
 # REST Countries API with color theme switcher solution
 
-## [Project link](https://ekaterinamuz.github.io/REST-Countries-API/)
+### [Project link](https://ekaterinamuz.github.io/REST-Countries-API/)
 
 ## Built with
 
@@ -19,4 +19,4 @@
 * Toggle the color scheme between light and dark mode
 
 ## Author
-Frontend Mentor - [https://www.frontendmentor.io/profile/tiagobw](@tiagobw)
+Frontend Mentor - [@tiagobw](https://www.frontendmentor.io/profile/tiagobw)

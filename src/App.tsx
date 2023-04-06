@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Header } from './components/Header';
 import { Main } from './components/Main';
 import { HomePage } from './pages/HomePage';
@@ -10,13 +10,15 @@ function App() {
     <>
       <Header />
       <Main>
-        <Routes>
-          <Route path="/REST-Countries-API" element={
-            <HomePage />
-          } />
-          <Route path="/country/:name" element={<Details />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+       <HashRouter>
+          <Routes>
+            <Route path="/REST-Countries-API" element={
+              <HomePage />
+            } />
+            <Route path="/country/:name" element={<Details />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+       </HashRouter>
       </Main>
     </>
   );
