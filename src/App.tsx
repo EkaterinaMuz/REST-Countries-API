@@ -10,7 +10,7 @@ function App() {
     <>
       <Header />
       <Main>
-       <HashRouter basename="/">
+       <HashRouter>
           <Routes>
             <Route path="/REST-Countries-API" element={
               <HomePage />
