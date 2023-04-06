@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Main>
         <Routes>
-          <Route path="/" element={
+          <Route path="/REST-Countries-API" element={
             <HomePage />
           } />
           <Route path="/country/:name" element={<Details />} />
